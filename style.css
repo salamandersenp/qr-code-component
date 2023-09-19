@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #D5E1EF;
+    font-family: 'Outfit', sans-serif;
+}
+.card-wrapper{
+    height: 90vh;
+    width: 100vw;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width: 350px;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+}
+.card-img{
+    height: 65%;
+    width: 90%;
+    border-radius: 15px;
+    background-image: url(./images/image-qr-code.png);
+    background-position: center;
+    background-size: cover;
+    margin: 15px auto;
+}
+.card-label{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    opacity: .8;
+    margin-top: 10px;
+
+}
+.card-label p{
+    opacity: .6;
+    margin-top: 15px;
+    max-width: 250px;
+}
+.attribution{
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    bottom: 10px;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
