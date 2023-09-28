@@ -9,7 +9,6 @@ body{
 .card-wrapper{
     height: 90vh;
     width: 100vw;
-    border: 1px solid black;
     display: flex;
     align-items: center;
     justify-content: center;
